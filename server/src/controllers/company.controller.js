@@ -113,7 +113,7 @@ export const updateCompany = async (req, res) => {
         logo,
       },
       {
-        new: true,
+        returnDocument: "after",
       },
     );
 
